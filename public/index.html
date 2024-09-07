@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Caminho para o CSS -->
+</head>
+<body>
+    <h1>Cadastro de Pessoa</h1>
+    <form action="/pessoa" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        
+        <label for="cpf">CPF:</label>
+        <input type="text" id="cpf" name="cpf" required>
+        
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" required>
+        
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>
